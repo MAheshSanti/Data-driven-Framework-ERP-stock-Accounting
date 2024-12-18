@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Data-Deiven_POM_TestnG">
+  <test thread-count="5" name="Admin Login test">
+    <classes>
+      <class name="driverFactory.DriverScript"/>
+    </classes>
+  </test> <!--  -->
+ 
+  <test thread-count="5" name="Customer add test">
+    <classes>
+      <class name="driverFactory.POM_TestScript"/>
+    </classes>
+  </test> <!--  -->
+</suite> <!-- Data-Deiven_POM_TestnG -->
